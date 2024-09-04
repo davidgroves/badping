@@ -47,12 +47,12 @@ This will connect to the boxA VM.
 To get the support options, run badping with the `--help` flag:
 
 ```sh
-cd /vagrant/badping/badping
+cd /vagrant/badping/
 python3 badping.py --help
 ```
 
 ```sh
-cd badping
+cd /vagrant/badping
 sudo python3 badping.py --src-mac AA:BB:CC:DD:EE:FF --dst-mac 00:11:22:33:44:55 --src-ipv4 192.168.50.10 --dst-ipv4 192.168.50.11 --interface eth1 --count 10 --delay 0.1 --ip-error 1
 ..........
 ```
