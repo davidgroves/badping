@@ -22,10 +22,10 @@ Because setting up an exact environment for testing is difficult, a Vagrantfile 
 - It uses the Ethernet e1000 NIC's. It can't use libvirt's virtio NIC's, as they will not pass the required checksums.
 - It sets up two VM's.
 
-| Box | Interface | MAC Address | IP Address | 
-| --- | --- | --- | --- | --- | 
-| boxA | eth1 | 00:00:00:AA:AA:AA | 192.168.50.10/24 |
-| boxB | eth1 | 00:00:00:BB:BB:BB | 192.168.50.11/24 |
+| Box  | Interface | MAC Address       | IP Address       | 
+| ---- | --------- | ----------------- | ---------------- | 
+| boxA | eth1      | 00:00:00:AA:AA:AA | 192.168.50.10/24 |
+| boxB | eth1      | 00:00:00:BB:BB:BB | 192.168.50.11/24 |
 
 
 ```sh
